@@ -1,0 +1,9 @@
+services:
+  ai-server:
+    build:
+      context: .
+    ports:
+      - 8000:8000
+    volumes:
+      - ./models:/app/models   # 모델 폴더가 컨테이너 내에 복사/동기화됨
+    restart: unless-stopped

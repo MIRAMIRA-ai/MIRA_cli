@@ -1,3 +1,9 @@
+fastapi
+uvicorn
+transformers
+torch
+
+# 추가적인 실무 패키지
 click~=8.2.1
 rich~=14.0.0
 requests~=2.32.4
@@ -15,3 +21,5 @@ urllib3~=2.5.0
 idna~=3.10
 charset-normalizer~=3.4.2
 packaging~=25.0
+pandas      # 데이터 가공/전처리시 자주 사용
+scikit-learn   # train/valid 분리, 평가 등
